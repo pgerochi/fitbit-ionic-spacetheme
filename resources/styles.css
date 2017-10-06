@@ -1,0 +1,44 @@
+#userTime {
+  font-size: 110;
+  font-family: Colfax-Medium;
+  text-length: 40;
+  text-anchor: start;
+  x: 3%;
+  y: 50%+10;
+  fill: #0096E6;
+}
+
+#userMonth {
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 900;
+  x: 5%;
+  y: 40;
+  text-anchor: start;
+  fill: #0096E6;
+}
+
+#userCalories {
+  font-size: 50;
+  font-family: Colfax-Medium;
+  text-length: 50;
+  x: 60%;
+  y: 85%;
+  text-anchor: start;
+  fill: #0096E6;
+}
+
+#smallHeart {
+  x: 10%
+}
+
+#heartRateInformation {
+  font-size: 50;
+  font-family: Colfax-Medium;
+  text-length: 50;
+  x: 20%;
+  y: 85%;
+  text-anchor: start;
+  fill: #0096E6;
+}
+

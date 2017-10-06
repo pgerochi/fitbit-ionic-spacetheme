@@ -1,0 +1,1 @@
+{"appManifestVersion":1,"main":"app/index.js","svgMain":"resources/index.gui","svgWidgets":"resources/widgets.gui","appType":"clockface","buildId":"0x015b951997b35a07","uuid":"538c7314-8639-4b04-a12e-f187fac1879c","name":"Quiche Clock","bundleDate":"2017-10-06T22:01:46.229Z","requestedPermissions":["access_heart_rate","access_activity"]}
