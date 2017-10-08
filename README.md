@@ -1,3 +1,3 @@
 # fitbit-ionic-spacetheme
 Testing Fitbit ionic sdk 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/pgerochi/fitbit-ionic-spacetheme/blob/master/readme-img.png)
