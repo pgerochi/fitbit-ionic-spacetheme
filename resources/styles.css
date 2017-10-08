@@ -1,31 +1,61 @@
 #userTime {
-  font-size: 110;
+  font-size: 100;
   font-family: Colfax-Medium;
   text-length: 40;
   text-anchor: start;
   x: 3%;
-  y: 50%+10;
-  fill: #0096E6;
+  y: 50%+20;
+  fill: #ffffff;
+}
+
+#userTimeSecond {
+  font-size: 40;
+  font-family: Colfax-Medium;
+  text-length: 50;
+  x: 97%;
+  y: 57%;
+  text-anchor: end;
+  fill: #ffffff
 }
 
 #userMonth {
   font-size: 30;
   font-family: Colfax-Medium;
   text-length: 900;
-  x: 5%;
+  x: 3%;
   y: 40;
   text-anchor: start;
-  fill: #0096E6;
+  fill: #ffffff;
 }
 
 #userCalories {
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 900;
+  x: 40%;
+  y: 40;
+  text-anchor: start;
+  fill: #ffffff
+}
+
+#userCaloriesText {
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 900;
+  x: 97%;
+  y: 40;
+  text-anchor: end;
+  fill: #ffffff;
+}
+
+#userSteps {
   font-size: 50;
   font-family: Colfax-Medium;
   text-length: 50;
-  x: 60%;
-  y: 85%;
   text-anchor: start;
-  fill: #0096E6;
+  fill: #ffffff;
+  x: 22%;
+  y: 90%;
 }
 
 #smallHeart {
@@ -36,9 +66,19 @@
   font-size: 50;
   font-family: Colfax-Medium;
   text-length: 50;
-  x: 20%;
-  y: 85%;
-  text-anchor: start;
-  fill: #0096E6;
+  x: 97%;
+  y: 90%;
+  text-anchor: end;
+  fill: #ffffff
+}
+
+#amPM {
+  font-size: 30;
+  font-family: Colfax-Medium;
+  text-length: 50;
+  x: 97%;
+  y: 40%;
+  text-anchor: end;
+  fill: #ffffff
 }
 
