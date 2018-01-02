@@ -3,6 +3,7 @@ import document from "document";
 import { HeartRateSensor } from "heart-rate";
 import { today, goals } from "user-activity"
 import * as util from "../common/utils";
+import { display } from "display";
 
 // Update the clock every minute
 clock.granularity = "seconds";
@@ -64,7 +65,6 @@ hrm.onreading = function() {
     //console.log("Current heart rate: " + reading.heartRate);
     heartRateInformation.innerText = reading.heartRate;  
   });
- 
 }
 
 // Update the clock every tick event
@@ -76,4 +76,10 @@ hrm.start();
 // Don't start with a blank screen
 updateClock();
 
-
+display.onchange = function(event) {
+  if (display.on) {
+    hrm.start();
+  } else {
+    hrm.stop();
+  }
+}
